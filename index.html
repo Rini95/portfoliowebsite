@@ -4,66 +4,146 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rini Udayanilavan | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo">Your Name</div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <div class="page-wrapper">
+    <header class="navbar">
+      <div class="logo-area">
+        <div class="logo-circle">RU</div>
+        <div class="logo-text">Rini Udayanilavan</div>
+      </div>
 
-  <section class="hero" id="top">
-    <div class="hero-text">
-      <p>Data Scientist · ML Enthusiast · Riyadh</p>
-      <h1>Building practical AI and data solutions.</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#impact">Impact</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Selected Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <div class="eyebrow">Data Science · ML · Riyadh</div>
+        <h1>
+          Building data
+          <span class="accent">products</span>
+          that matter
+        </h1>
+        <p>
+          I work on machine learning, analytics, and data-driven solutions
+          with a focus on practical business impact.
+        </p>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+
+      <div class="hero-image-box">
+        <img src="images/Profilephoto.png" alt="Rini profile photo" />
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-title">About</div>
+      <h2>Turning data into useful decisions.</h2>
       <p>
-        I work on machine learning, analytics, and data-driven products with a focus on business impact.
+        I am a data science professional with experience in analytics,
+        machine learning, dashboarding, and business problem solving.
+        My work focuses on building practical solutions that are clear,
+        measurable, and valuable for stakeholders.
       </p>
-      <a class="btn" href="#contact">Get in touch</a>
-    </div>
-    <div class="hero-image">
-      <img src="images/Profilephoto.png" alt="Profile photo"/>
-    </div>
-  </section>
+    </section>
 
-  <section id="about" class="section">
-    <h2>About</h2>
-    <p>
-      I am a data science professional with experience in analytics, machine learning, and business problem solving.
-    </p>
-  </section>
+    <section class="section feature-dark" id="impact">
+      <div class="feature-grid">
+        <div class="left">
+          <div class="section-title">Current Focus</div>
+          <h2>
+            Building machine learning solutions that are reliable,
+            explainable, and useful in real business settings.
+          </h2>
+          <p>
+            I focus on combining analytics, modeling, and communication so
+            that technical work leads to grounded decisions. My projects span
+            predictive analytics, fraud detection, classification, and business reporting.
+          </p>
+        </div>
 
-  <section id="experience" class="section">
-    <h2>Experience</h2>
-    <div class="card">
-      <h3>Business Data Analyst</h3>
-      <p>ARIS ZINC Pty Ltd · 2024–2025</p>
-      <p>Worked on dashboards, KPI tracking, predictive analytics, and stakeholder reporting.</p>
-    </div>
-  </section>
+        <div class="cards">
+          <div class="info-card">
+            <div class="num">01</div>
+            <h3>Analytics</h3>
+            <p>Transform raw data into clear patterns, KPIs, and business insights.</p>
+          </div>
 
-  <section id="projects" class="section">
-    <h2>Selected Work</h2>
-    <div class="card">
-      <h3>Credit Card Fraud Detection</h3>
-      <p>Built ML models for fraud classification and model evaluation on imbalanced data.</p>
-    </div>
-    <div class="card">
-      <h3>SVHN Image Classification</h3>
-      <p>Compared KNN, SVM, logistic regression, and random forest with PCA preprocessing.</p>
-    </div>
-  </section>
+          <div class="info-card">
+            <div class="num">02</div>
+            <h3>Machine Learning</h3>
+            <p>Build and evaluate practical models for classification, prediction, and decision support.</p>
+          </div>
 
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: riniudayanilavan@gmail.com</p>
-    <p>LinkedIn: www.linkedin.com/in/rini-udayanilavan</p>
-    <p>GitHub: https://github.com/Rini95</p>
-  </section>
+          <div class="info-card">
+            <div class="num">03</div>
+            <h3>Communication</h3>
+            <p>Present technical results in a way that stakeholders can understand and act on.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="num">04</div>
+            <h3>Business Impact</h3>
+            <p>Focus on solutions that improve reporting, efficiency, and strategic decision-making.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-title">Experience</div>
+      <h2>Professional background</h2>
+
+      <div class="card">
+        <h3>Business Data Analyst</h3>
+        <p><strong>ARIS ZINC Pty Ltd</strong> · May 2024 – June 2025</p>
+        <p>
+          Worked with SQL, Python, Tableau, and Power BI to build dashboards,
+          track KPIs, generate insights, and support predictive analytics initiatives.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-title">Selected Work</div>
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>
+          Built and evaluated fraud detection models on imbalanced transaction data,
+          comparing model performance using precision, recall, F1, ROC-AUC, and PR-AUC.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>SVHN Image Classification</h3>
+        <p>
+          Compared KNN, SVM, Logistic Regression, and Random Forest models with PCA
+          for digit recognition on real-world street view house numbers.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-title">Contact</div>
+      <h2>Let’s connect</h2>
+      <div class="contact-links">
+        <p>Email: <a href="mailto:riniudayanilavan@gmail.com">riniudayanilavan@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/rini-udayanilavan/" target="_blank">linkedin.com/in/rini-udayanilavan</a></p>
+        <p>GitHub: <a href="https://github.com/Rini95" target="_blank">github.com/Rini95</a></p>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
