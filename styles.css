@@ -143,10 +143,9 @@ body {
 
 .hero-image-box img {
   width: 100%;
-  height: 580px;
-  object-fit: cover;
+  max-width: 350px;
+  height: auto;
   border-radius: 28px;
-  display: block;
 }
 
 .section {
