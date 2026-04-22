@@ -146,8 +146,8 @@ body {
 }
 
 .hero-image-box img {
-  width: 340px;
-  height: 440px;
+  width: 440px;
+  height: 540px;
   object-fit: cover;
   object-position: center top;
   border-radius: 28px;
